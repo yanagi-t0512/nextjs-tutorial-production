@@ -18,6 +18,7 @@ const prismaHandlers = async () => {
 const PrismaPage = async () => {
 
   const tasks = await prismaHandlers()
+  console.log('prismaページ tasks', tasks)
 
   return (
     <div>
